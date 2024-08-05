@@ -1,0 +1,86 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+header{
+    
+    background-color: #333;
+    color:white ;
+    text-align: center;
+    padding: 10px 0px;
+}
+.container{
+   display:flex;
+   margin: 20px;
+}
+main{
+    margin-right: 20px;
+    flex: 3;
+    background-color: #fff;
+}
+aside{
+    flex: 1;
+    background-color: #f9f9f9;
+    
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 28%;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img{
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; 
+    
+}
+.card button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #03344c;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.card-portfolio{
+    display: flex;
+    padding: 0px;
+    margin: 5px;
+    border-radius:20px; 
+    text-align: center;
+}
+.portfolio{
+    width: 28%;
+    background: #fff;
+    margin: 10px;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+}
+.portfolio img{
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;   
+}
+.card-portfolio{
+    display: flex;
+    justify-content: space-around;
+}
